@@ -1,10 +1,15 @@
 .menu {
   color: white;
   font-size: 1.5em;
-  background: linear-gradient(to bottom,#3c3b3f, #605c3c);
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e );
   width: 100%;
-  height: 3em;
+  height: 5%;
   font-variant: small-caps;
+}
+
+.button {
+  margin: 5px;
+  vertical-align: -90%;
 }
 
 .button a {
@@ -20,5 +25,5 @@
 }
 
 .button a:hover {
-  color: grey;
+  color: orange;
 }
