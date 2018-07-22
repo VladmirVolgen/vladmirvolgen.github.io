@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: LightSkyBlue;
 }
 
 h1 {
@@ -15,6 +15,10 @@ h1 {
 
 p {
   font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+
 }
 
 .col2 {
@@ -45,15 +49,15 @@ p {
 #hire {
   background-color: LightSkyBlue;
   height: 40px;
-  width: 60px;
+  width: 80px;
   text-align: center;
   color: white;
   justify-self: end;
+  border-radius: 5px;
 }
 
 #hire a:hover{
-  color: LightSkyBlue;
-  background-color: black
+  color: white;
 }
 
 
@@ -67,7 +71,7 @@ p {
 .smallcaps {
   font-family: 'Oswald', sans-serif;
   font-variant: small-caps;
-  font-size: 18px;
+  font-size: 24px;
 
 }
 
@@ -110,4 +114,21 @@ p {
 
 .button a:hover {
   color: orange;
+}
+
+div .placeholder {
+  width:400px;
+  height:250px;
+  border: 2px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid: auto-flow / repeat(auto-fit, minmax(400px, 1fr));
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
 }
