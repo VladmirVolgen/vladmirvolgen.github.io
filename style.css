@@ -1,10 +1,9 @@
 body {
   /* temporary I need to adjust the vector file*/
-  background-image: url("https://image.freepik.com/free-vector/digital-technology-background_1017-7135.jpg");
+  background-image: url('images/background.svg');
   background-size: cover;
 
 }
-
 
 a {
   text-decoration: none;
