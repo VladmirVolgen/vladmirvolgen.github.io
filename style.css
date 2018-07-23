@@ -134,6 +134,20 @@ div .placeholder {
   justify-items: center;
   margin-left: 20px;
   margin-right: 20px;
+}
 
+.white {
+  color: white;
+}
 
+.footer {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to right, #212F3C, #34495E, #1B2631);
+  margin-top: 25px;
+}
+
+#social_media {
+  padding-top: 20px;
+  font-size: 48px;
 }
