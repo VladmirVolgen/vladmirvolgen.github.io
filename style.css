@@ -1,5 +1,6 @@
+/* Main selectors */
+
 body {
-  /* temporary I need to adjust the vector file*/
   background-image: url('images/background.svg');
   background-size: cover;
 
@@ -28,6 +29,44 @@ p {
 
 }
 
+/* Useful Classes */
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+.smallcaps {
+  font-family: 'Oswald', sans-serif;
+  font-variant: small-caps;
+  font-size: 24px;
+
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.center {
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+.white a{
+  color: white;
+}
+
+.white a:hover {
+  color: LightSkyBlue;
+}
+
+/* Portrait */
+
 #portrait {
   display: block;
   margin: auto;
@@ -43,6 +82,8 @@ p {
   height:100%;
   border-radius: 50%
 }
+
+/* About Me selectors */
 
 .col2 {
   display: grid;
@@ -83,28 +124,7 @@ p {
   color: white;
 }
 
-
-.right {
-  text-align: right;
-}
-
-.left {
-  text-align: left;
-}
-.smallcaps {
-  font-family: 'Oswald', sans-serif;
-  font-variant: small-caps;
-  font-size: 24px;
-
-}
-
-.thin {
-  font-weight: 300;
-}
-
-.center {
-  text-align: center;
-}
+/* Navbar */
 
 .navbar {
   position: sticky;
@@ -143,6 +163,8 @@ p {
   color: orange;
 }
 
+/* Portfolio */
+
 div .placeholder {
   width:400px;
   height:250px;
@@ -158,17 +180,7 @@ div .placeholder {
   margin-right: 20px;
 }
 
-.white {
-  color: white;
-}
-
-.white a{
-  color: white;
-}
-
-.white a:hover {
-  color: LightSkyBlue;
-}
+/* Footer */
 
 .footer {
   width: 100%;
