@@ -186,8 +186,8 @@ div .placeholder {
   grid-gap: 20px;
   grid: auto-flow / repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .project_btn:hover {
