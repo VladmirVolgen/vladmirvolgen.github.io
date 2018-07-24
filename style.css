@@ -1,4 +1,11 @@
+/* Media Queries */
+
 /* Main selectors */
+
+img {
+  width: 100%;
+  height: auto;
+}
 
 body {
   background-image: url('images/background.svg');
@@ -30,6 +37,10 @@ p {
 }
 
 /* Useful Classes */
+
+.padding {
+  padding: 0% 5% 0% 5%;
+}
 
 .right {
   text-align: right;
@@ -138,13 +149,12 @@ p {
   font-weight: bold;
   background: linear-gradient(to right, #212F3C, #34495E, #1B2631 );
   width: 100%;
-  height: 5%;
   font-variant: small-caps;
 }
 
 .button {
-  margin: 5px;
-  vertical-align: -90%;
+  margin: 1%;
+  vertical-align: -60%;
 }
 
 .button a {
@@ -156,7 +166,7 @@ p {
 }
 
 .button a:visited {
-  color: darkgrey;
+  color: white;
 }
 
 .button a:hover {
@@ -166,15 +176,15 @@ p {
 /* Portfolio */
 
 div .placeholder {
-  width:400px;
-  height:250px;
+  width: 100%;
+  height: auto;
   border: 2px solid white;
 }
 
 .grid {
   display: grid;
   grid-gap: 20px;
-  grid: auto-flow / repeat(auto-fit, minmax(400px, 1fr));
+  grid: auto-flow / repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
   margin-left: 20px;
   margin-right: 20px;
