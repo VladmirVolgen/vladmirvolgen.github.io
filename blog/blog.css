@@ -1,5 +1,50 @@
+h1 {
+  color: white;
+  font-variant: small-caps;
+}
+
 h3 {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: white;
+  color: LightSkyBlue;
+}
+
+p {
+  color: snow;
+}
+
+.entry {
+  display: grid;
+}
+
+.heading {
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+}
+
+/* Collapsible */
+
+.collapsible {
+    background-color: SteelBlue;
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: LightSkyBlue;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(105, 105, 105, 0.4);
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="blog.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="blog/blog.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <title>Blog</title>
+</head>
+<body>
+  <section class="navbar">
+    <div class="menu padding">
+      <span class="button"><a href="index.html#about_me">About Me</a></span>
+      <span class="button"><a href="index.html#portfolio">Portfolio</a></span>
+      <span class="button"><a href="blog.html">Blog</a></span>
+      <span class="button"><a href="mailto:alvaroalonsoflor@gmail.com">Contact</a></span>
+      <span class="button"><a href="index.html#social_media">Social Media</a></span>
+    </div>
+  </section>
+  <div class="entry">
+    <button class="collapsible"><div class="heading center"><h1>CodeClan Week 01 - TDD and Pair Programming</h1></div></button>
+    <div class="content">
+        <div><h3 class="center">The first week in Codeclan is over! And it was much more intense than I expected. Even if we went during the precourse over the basic topics of Ruby, such as variables, array and hashes, working with them in class has made it a completely different experience.
+        </h3></div>
+        <div><p>Appart from the classes, which are interactive and open to questions, we started to work on pair programming during our labs, a really rewarding experience. Pair programming consists in two people working together to develop a product, one typing the code and explaining what they do (driver) and another one watching out for mistakes and contributing with suggestions (navigator). At the beginning I was thinking it was going to be slower than coding on your own laptop but it was just the opposite. When you are navigating you spot all the mistakes more easily and learn from that at the same time you try to understand the code from somebody else. On the other hand when you are driving you have to explain your code and learn from the ideas and suggestions from your navigator.
+        </p>
+        <p>The other core point of this week was TDD (Test Driven Development). The philosophy of the TDD is to write the tests before developing a product. Making the tests beforehand makes you able to think about what you want to design and is specially useful to break your idea in little pieces. If you do that you will have a function for every task, which means your code will be easier to maintain in the future and that you can use your functions in the future with other purposes.
+        </p>
+        <p>So far it has been a nice week and I already feel that I have learnt a lot even if we were just “recapping” the course contents. I can’t wait to start to dive into the unknown, digging deeper into programming. Next week, Object Orientation!
+        </p>
+        </div>
+      </div>
+  </div>
+  <footer class="footer center">
+    <div id="social_media">
+      <a href="https://twitter.com/vladmirvolgen" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://github.com/VladmirVolgen" class="fa fa-github" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/%C3%A1lvaro-alonso-flor-36336aa8/?locale=en_UK" class="fa fa-linkedin" target="_blank"></a>
+
+    </div>
+    <div>
+      <p class="white">Alvaro Alonso &copy 2018 All rights reserved</p>
+    </div>
+  </footer>
+
+<!-- Script goes here because it needs to be run after reading the page -->
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+
+</body>
+</html>
