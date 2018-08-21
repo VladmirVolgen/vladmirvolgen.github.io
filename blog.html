@@ -55,6 +55,27 @@
         </div>
       </div>
   </div>
+
+  <div class="entry">
+    <button class="collapsible"><div class="heading center"><h1>CodeClan Week 03 - Databases, Psql
+</h1></div></button>
+    <div class="content">
+        <div><h3 class="center">My third week at CodeClan has flown away. It has been a really interesting week where we learnt about another key piece from the programming jigsaw, databases.
+        </h3></div>
+        <div><p>Psql was the first of the contents of the course where I was completely new and I really enjoyed the challenge. It was a huge amount of new information but it was as well one of the things I was missing when I was trying to teach myself with the information I was able to find on the Internet. I was missing how to connect useful elements as databases with your programming language.
+        </p>
+
+        <p>After we learnt the very basics of SQL (how to create tables, select columns, filter values, order them and link them) we started with the real challenge, establishing communication between our database and our classes or models that we run in Ruby. For this we used a Ruby gem, PG, that was able to translate our queries from our models to our databases and retrieve the information we were looking for. </p>
+
+        <p>This was amazing and at the same time a bit confusing at the beginning, especially because your brain tends to not separate very well the database from the models. That’s where diagrams became even more important to simplify the interaction between our database and our classes breaking all the process into small pieces. Once you are capable to separate your work on the database from your work on the models everything is easier. You still have to write the queries on your classes but with a look at your diagram you can clarify your thoughts every time you get confused and continue working.</p>
+
+        <p>On Thursday we were introduced to many to many relationships on databases. Until then we were working with relatively simple schemes, doing one to many (such as one jedi can have multiple lightsabers but not the other way around). To build many to many relationships, such as a film can have many customers and a customer many films, we need hinge elements that are able to keep track of our other tables. In these examples tickets would be the perfect hinge, storing the film_id and customer_id info. Thanks to this element we can use the powerful SQL joints, that can merge tables retrieving information from several tables.</p>
+
+        <p>We were able to play with this on Friday and during the weekend with a cinema exercise. The most interesting part was on the advanced extensions, where we had to work with a new model and table (screenings). Having to redesign everything to meet these new needs and adding more complexity to the cinema was challenging, but it was completely worth it when everything was working properly.</p>
+
+        </div>
+      </div>
+  </div>
   <footer class="footer center">
     <div id="social_media">
       <a href="https://twitter.com/vladmirvolgen" class="fa fa-twitter" target="_blank"></a>
