@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script type="text/javascript" src="blog.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="blog/blog.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="js/main.js"> </script>
 
   <title>Blog</title>
 </head>
@@ -152,26 +152,6 @@
       <p class="white">Alvaro Alonso &copy 2018 All rights reserved</p>
     </div>
   </footer>
-
-
-
-<!-- Script goes here because it needs to be run after reading the page -->
-  <script>
-  var coll = document.getElementsByClassName("collapsible");
-  var i;
-
-  for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.maxHeight){
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + "px";
-      }
-    });
-  }
-  </script>
 
 </body>
 </html>
